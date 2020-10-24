@@ -1,0 +1,138 @@
+commit b7214b599e8ce0fbc4fdf142e4866c8b492256b0
+Author: Patryk Kulik <patryk.kulik17@imperial.ac.uk>
+Date:   Tue Mar 24 18:46:33 2020 +0000
+
+    Documentation added
+
+M	Lid_Driven_Cavity/LidDrivenCavity.hpp
+M	Lid_Driven_Cavity/LidDrivenCavitySolver.cpp
+M	Lid_Driven_Cavity/PoissonSolver.cpp
+M	Lid_Driven_Cavity/PoissonSolver.hpp
+
+commit c43758fb14192f9c54f82d01b423527e106f324e
+Author: Patryk Kulik <patryk.kulik17@imperial.ac.uk>
+Date:   Tue Mar 24 17:33:58 2020 +0000
+
+    Final version of the code
+
+M	Lid_Driven_Cavity/Definitions.h
+M	Lid_Driven_Cavity/LidDrivenCavity.cpp
+M	Lid_Driven_Cavity/LidDrivenCavity.hpp
+M	Lid_Driven_Cavity/LidDrivenCavitySolver.cpp
+M	Lid_Driven_Cavity/PoissonSolver.cpp
+M	Lid_Driven_Cavity/PoissonSolver.hpp
+
+commit eb4d6c4190037f39654b41b614a0a4b390fe0985
+Author: Patryk Kulik <patryk.kulik17@imperial.ac.uk>
+Date:   Mon Mar 23 12:19:49 2020 +0000
+
+    Modified the Jacobi solver with SOR algorithm. Updated the Conjugate gradient method
+
+M	Lid_Driven_Cavity/Definitions.h
+M	Lid_Driven_Cavity/LidDrivenCavity.cpp
+M	Lid_Driven_Cavity/LidDrivenCavity.hpp
+M	Lid_Driven_Cavity/LidDrivenCavitySolver.cpp
+M	Lid_Driven_Cavity/PoissonSolver.cpp
+M	Lid_Driven_Cavity/PoissonSolver.hpp
+
+commit 4362e412d4c72e8a9296bdcd4e74529286028c95
+Author: Patryk Kulik <patryk.kulik17@imperial.ac.uk>
+Date:   Mon Mar 23 11:51:07 2020 +0000
+
+    Expanded Poisson Solver class to include Conjugate Gradient Solver
+
+M	Lid_Driven_Cavity.xcodeproj/project.pbxproj
+M	Lid_Driven_Cavity/Definitions.h
+M	Lid_Driven_Cavity/LidDrivenCavity.cpp
+M	Lid_Driven_Cavity/LidDrivenCavity.hpp
+R057	Lid_Driven_Cavity/main.cpp	Lid_Driven_Cavity/LidDrivenCavitySolver.cpp
+A	Lid_Driven_Cavity/Makefile
+M	Lid_Driven_Cavity/PoissonSolver.cpp
+M	Lid_Driven_Cavity/PoissonSolver.hpp
+
+commit b8b8e43d1d3324a1fdb67500bacb06dd32ce931b
+Author: Patryk Kulik <patryk.kulik17@imperial.ac.uk>
+Date:   Sat Mar 14 20:17:14 2020 +0000
+
+    Full solution to the problem including classes and MPI implementation
+
+M	Lid_Driven_Cavity.xcodeproj/project.pbxproj
+A	Lid_Driven_Cavity/Definitions.h
+A	Lid_Driven_Cavity/LidDrivenCavity.cpp
+A	Lid_Driven_Cavity/LidDrivenCavity.hpp
+A	Lid_Driven_Cavity/PoissonSolver.cpp
+A	Lid_Driven_Cavity/PoissonSolver.hpp
+M	Lid_Driven_Cavity/main.cpp
+
+commit 2e478cbfb70dcd059be50d6cd96bbaac2793a616
+Author: Patryk Kulik <patryk.kulik17@imperial.ac.uk>
+Date:   Fri Mar 13 19:37:56 2020 +0000
+
+    Improved MPI
+
+M	Lid_Driven_Cavity/main.cpp
+
+commit 0f19b009c2a396c10659b0ac0289cdb962c93e1d
+Author: Patryk Kulik <patryk.kulik17@imperial.ac.uk>
+Date:   Fri Mar 13 18:51:07 2020 +0000
+
+    Improved version of the MPI code (10000 time steps on 161x161 grid in under 3min)
+
+M	Lid_Driven_Cavity/main.cpp
+
+commit 9e8bc27114e3b7a856cdfea9112aca2b341b85d5
+Author: Patryk Kulik <patryk.kulik17@imperial.ac.uk>
+Date:   Fri Mar 13 12:35:36 2020 +0000
+
+    A first complete MPI version of the program
+
+M	Lid_Driven_Cavity.xcodeproj/project.pbxproj
+M	Lid_Driven_Cavity/main.cpp
+
+commit 79d38e2dad102891fa981ae58ad5b95f5e33cd43
+Author: Patryk Kulik <patryk.kulik17@imperial.ac.uk>
+Date:   Tue Mar 10 14:10:21 2020 +0000
+
+    The issue with 161x161 grid nan values fixed.
+
+M	Lid_Driven_Cavity/main.cpp
+
+commit 29da66bc06ad583e74d01ade5c6a8e1cdd8aab57
+Author: Patryk Kulik <patryk.kulik17@imperial.ac.uk>
+Date:   Mon Mar 9 21:35:19 2020 +0000
+
+    A working prototype without MPI implementation
+
+M	Lid_Driven_Cavity/main.cpp
+
+commit b450b387422065558bd020a97b13adceef71fadf
+Author: Patryk Kulik <patryk.kulik17@imperial.ac.uk>
+Date:   Mon Mar 9 16:20:35 2020 +0000
+
+    Initial version of the program
+
+M	Lid_Driven_Cavity.xcodeproj/project.pbxproj
+M	Lid_Driven_Cavity.xcodeproj/xcuserdata/Patryk.xcuserdatad/xcschemes/xcschememanagement.plist
+A	Lid_Driven_Cavity/cblas.h
+M	Lid_Driven_Cavity/main.cpp
+
+commit 3a6306eb429afcef8453c869e49f64c5f372f9d9
+Author: Patryk Kulik <patryk.kulik17@imperial.ac.uk>
+Date:   Mon Mar 9 13:15:58 2020 +0000
+
+    Initial Commit
+
+M	Lid_Driven_Cavity.xcodeproj/project.pbxproj
+M	Lid_Driven_Cavity/main.cpp
+
+commit 6c1cf4a1ba94d6a7111ad75f858934b253e40bb1
+Author: Patryk Kulik <patryk.kulik17@imperial.ac.uk>
+Date:   Mon Mar 9 13:13:20 2020 +0000
+
+    Initial Commit
+
+A	Lid_Driven_Cavity.xcodeproj/project.pbxproj
+A	Lid_Driven_Cavity.xcodeproj/project.xcworkspace/contents.xcworkspacedata
+A	Lid_Driven_Cavity.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist
+A	Lid_Driven_Cavity.xcodeproj/xcuserdata/Patryk.xcuserdatad/xcschemes/xcschememanagement.plist
+A	Lid_Driven_Cavity/main.cpp
